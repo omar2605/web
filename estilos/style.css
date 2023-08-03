@@ -1,0 +1,42 @@
+body {
+  background-image: url(../imagen/ubuntu.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container {
+  margin: 0 auto;
+  position: relative;
+}
+.hijo {
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  transform: translate(50, -50%);
+}
+.titulo {
+  color: darkorange;
+  position: absolute;
+
+  transform: translate(50, -50%);
+}
+.solar {
+  color: blue;
+}
+.parrafo {
+  font-size: larger;
+  color: aliceblue;
+  position: absolute;
+  transform: translate(50, -50%);
+}
+.roja {
+  color: rgb(255, 3, 3);
+}
+.ama {
+  color: rgb(253, 253, 5);
+}
+.sol {
+  color: #08e8e0;
+}
